@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+/* open sens */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* bangla font */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+/* Special Gothic Condensed One */
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+.nav-title {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    
+  }
+  .header{
+    background-image: url('./developer.png') , url('./header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+  }
+  .color-1{
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+  }
+.primary-color{
+    color: #FD6E0A;
+
+}
+.btn-primary{
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+}
+nav , .banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav li a{
+    text-decoration: none;
+}
+/* banner */
+.banner-content-2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #181818;
+}
