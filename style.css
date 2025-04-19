@@ -153,3 +153,53 @@ main{
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 }
+.A-summary-of-Resume{
+    margin-bottom: 88px;
+    margin-top: 88px;
+} 
+.A-summary-of-Resume h2 {
+    text-align: center;
+    color: #181818;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
+.A-summary-of-Resume-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    line-height: 90%;
+    
+}
+.A-summary-of-Resume-Edu h1  {
+    font-size: 35px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 900;
+}
+#Sub{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 30px;
+}
+#Institude{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-size: 20px;
+    color: rgb(41, 3, 255);
+    font-weight: 500;
+}
+#sub-details{
+    color: #757575;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+}
+.experience{
+    font-size: 35px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 900;
+}
+.Download-btn{
+    text-align: center;
+}
