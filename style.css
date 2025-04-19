@@ -12,9 +12,15 @@
     
   }
   .header{
-    background-image: url('./developer.png') , url('./header_bg.png');
+    background-image: url('./Developer.png') , url('./header_bg.png');
     background-repeat: no-repeat;
     background-position: top left , bottom right;
+    background-size:auto;
+  }
+  .common-text-style{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
   }
   .color-1{
     color: #757575;
@@ -56,4 +62,53 @@ nav li a{
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     color: #181818;
+}
+.banner-img{
+    width: 410px;
+}
+.banner-container{
+    gap: 50px;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+main{
+    margin-top: 50px;
+}
+.aboute-me{
+    background-color: lab(87.17% 15.2 7.93);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 8px;
+}
+.aboute-me-title{
+    text-align: center;
+}.aboute-me-details{
+    color: #757575;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboute-me-more-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+.aboute-me-more-details div{
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30%;
+}
+.aboute-me-more-details h3{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+}
+.aboute-me-more-details h1{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
 }
