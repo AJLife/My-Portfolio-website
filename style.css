@@ -75,12 +75,14 @@ nav li a{
 }
 main{
     margin-top: 50px;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 64px;
 }
 .aboute-me{
     background-color: lab(87.17% 15.2 7.93);
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-radius: 8px;
 }
 .aboute-me-title{
@@ -93,8 +95,7 @@ main{
 }
 .aboute-me-more-details{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 .aboute-me-more-details div{
     text-align: center;
@@ -109,6 +110,46 @@ main{
 }
 .aboute-me-more-details h1{
     color: #474747;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
+}
+.What-I-do{
+    text-align: center;
+   
+}
+.What-I-do h1{
+    color: #181818;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.What-I-do p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.What-I-do-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    margin-top: 25px;
+}
+.What-I-do-details div{
+    text-align: justify;
+    padding: 15px;
+    max-width: 200px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 5px 50px 5px #c9c9bd;
+}
+.What-I-do-details h3{
+    color: #181818;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.What-I-do-details  p{
+    color: #757575;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
